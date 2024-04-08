@@ -1,0 +1,5 @@
+root_dir : '/extdata/ocr/duyla3/DATASET/OCR/VTCC_DATA/'
+label_path : '/extdata/ocr/duyla3/DATASET/OCR/VTCC_DATA/Image_ST_Datasets/MJ_valid.txt'
+output_dir : '/data/ocr/duyla4/DATASET/OCR/VTCC_DATA/Research_Dataset/MJ_ST/val/MJ'
+base_factor : 1.6
+increase_rate : 0.05

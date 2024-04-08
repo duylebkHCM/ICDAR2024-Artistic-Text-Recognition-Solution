@@ -1,0 +1,9 @@
+# @package _global_
+data:
+  font_path: strhub/data/arial.ttf
+
+  use_class_binary_sup: true
+
+  font_size: 30
+
+  font_strength: 0.1

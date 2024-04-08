@@ -1,0 +1,33 @@
+framwork:
+- augment:
+    + randaugment
+    + curve augment
+    + patch drop out
+
+- idea checking: TextAdain, Sup Con Loss, pretraining LM for decoder
+
+- parseq_custom (backbone vit base, pretraining CCD):
+    + refine 2
+    + refine 3 (fail)
+
+- parseq_svtr (backbone svtr base, pretraining CCD):
+    + refine 2
+    + refine 3 (fail)
+
+
+Postprocess: Lexicon ? (Inspired by ASTER)
+
+
+Best Result:
+Survey:
+
+- 2024-03-13_16-10-44 parseq_custom vit base
+- Combination: pretrain CCD, refine 2, curve augment, patch dropout
+
+- TextAdain on 2024-03-13_16-10-44 (Fail)
+
+- Sup Con Loss on 2024-03-13_16-10-44 (Success)
+- Best: 2024-03-14_12-19-50
+
+- pretraining LM for decoder on 2024-03-14_12-19-50
+

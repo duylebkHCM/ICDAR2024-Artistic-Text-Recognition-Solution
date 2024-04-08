@@ -1,0 +1,29 @@
+name: parseq_custom
+_target_: strhub.models.parseq_custom.system.PARSeq
+
+# Data
+patch_size: [ 4, 4 ]  # [ height, width ]
+
+# Augment
+patch_drop_rate: 0.0
+adain: false
+
+# Architecture
+embed_dim: 512
+enc_num_heads: 8
+enc_mlp_ratio: 4
+enc_depth: 12
+dec_num_heads: 8
+dec_mlp_ratio: 4
+dec_depth: 1
+
+# Training
+lr: 7e-4
+perm_num: 6
+perm_forward: true
+perm_mirrored: true
+dropout: 0.1
+
+# Decoding mode (test)
+decode_ar: true
+refine_iters: 2
