@@ -34,7 +34,6 @@ docker exec -it wordart /bin/bash
 
 ## Run infererence
 
-**Note:The experiments are performed in Ho Chi Minh City time zone which is UTC+7, so experiment 2024-04-01_03-21-42 is conducted before the end of the competition, no cheating here**
 
 ```bash
 cd workdir
