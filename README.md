@@ -1,3 +1,6 @@
+# REPORT:
+https://docs.google.com/document/d/1aMJw1OJJ9xC9KH4iz8jccAXoKYUwuLNT66qoMKNH0cY/edit?usp=sharing 
+
 # INSTRUCTION TO RUN INFERENCE WITH DOCKER
 
 
